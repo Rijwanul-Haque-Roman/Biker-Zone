@@ -39,7 +39,7 @@
 
 <body class="font-poppins">
     <header class="md:container md:mx-auto">
-        <nav class=" my-4 lg:my-14">
+        <nav class=" my-4 lg:my-14 ">
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                     <div class="dropdown">
@@ -58,7 +58,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="hidden lg:flex btn btn-ghost text-[2.25rem] font-bold">Biker Zone</a>
+                    <a class="flex btn btn-ghost text-xl lg:text-[2.25rem] font-bold">Biker Zone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-base font-medium">
@@ -74,7 +74,7 @@
             </div>
         </nav>
         <!-- banner section slider -->
-        <div class="carousel w-full bg-slider-bg lg:h-[34.375rem] ">
+        <div class="carousel w-full bg-slider-bg rounded-lg">
             <!-- slide one -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col lg:flex-row justify-around p-4 lg:p-24 w-full">
@@ -88,7 +88,7 @@
                         <button class="btn bg-primary-btn-clr text-xl font-semibold text-white">Purchase</button>
                     </div>
                     <div>
-                        <img src="images/slider/bike1.png" class="w-full" />
+                        <img src="images/slider/bike1.png" class="w-[32rem]" />
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -109,7 +109,7 @@
                         <button class="btn bg-primary-btn-clr text-xl font-semibold text-white">Purchase</button>
                     </div>
                     <div>
-                        <img src="images/slider/bike2.png" class="w-full" />
+                        <img src="images/slider/bike2.png" class="w-[32rem]" />
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -130,7 +130,7 @@
                         <button class="btn bg-primary-btn-clr text-xl font-semibold text-white">Purchase</button>
                     </div>
                     <div>
-                        <img src="images/slider/bike3.png" class="w-full" />
+                        <img src="images/slider/bike3.png" class="w-[32rem]" />
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -151,7 +151,7 @@
                         <button class="btn bg-primary-btn-clr text-xl font-semibold text-white">Purchase</button>
                     </div>
                     <div>
-                        <img src="images/slider/bike4.png" class="w-full" />
+                        <img src="images/slider/bike4.png" class="w-[32rem]" />
                     </div>
                 </div>
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -161,7 +161,23 @@
             </div>
         </div>
     </header>
-    <main class="md:container md:mx-auto"></main>
+    <main class="md:container md:mx-auto">
+        <!-- featured bike section -->
+        <section class="mt-[1.5rem] lg:mt-[10.5rem]">
+            <div class="text-center">
+                <h2 class="text-[2rem] lg:text-[3rem] text-black font-semibold">Featured Bikes In This Year</h2>
+                <h4 class="text-[#E76F51] text-[0.875rem] font-semibold ">Best <span
+                        class="underline underline-offset-8 ">bike
+                        colle</span>ction</h4>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-3 mt-3 lg:mt-[3.13rem]">
+                <img src="images/others/feature-bike-3.png" alt="">
+                <img src="images/others/feature-bike-2.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+            </div>
+        </section>
+        <!-- Latest news section -->
+    </main>
     <footer></footer>
 </body>
 
